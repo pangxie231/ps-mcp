@@ -261,10 +261,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "mcp" },
+    { name = "pywin32" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "mcp", specifier = ">=1.26.0" }]
+requires-dist = [
+    { name = "mcp", specifier = ">=1.26.0" },
+    { name = "pywin32", specifier = ">=311" },
+]
 
 [[package]]
 name = "pycparser"
