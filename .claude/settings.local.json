@@ -4,7 +4,9 @@
       "Bash(bash \"C:\\\\Users\\\\EDY\\\\.claude\\\\skills\\\\git-pushing\\\\scripts\\\\smart_commit.sh\" \"feat\\(init\\): initialize project with mcp server | 初始化 MCP 服务器项目\")",
       "Bash(git add:*)",
       "Bash(git push:*)",
-      "Bash(bash \"C:\\\\Users\\\\EDY\\\\.claude\\\\skills\\\\git-pushing\\\\scripts\\\\smart_commit.sh\" \"docs\\(readme\\): add comprehensive project documentation | 添加项目说明文档\")"
+      "Bash(bash \"C:\\\\Users\\\\EDY\\\\.claude\\\\skills\\\\git-pushing\\\\scripts\\\\smart_commit.sh\" \"docs\\(readme\\): add comprehensive project documentation | 添加项目说明文档\")",
+      "Bash(bash C:/Users/EDY/.claude/skills/git-pushing/scripts/smart_commit.sh)",
+      "Bash(bash \"C:/Users/EDY/.claude/skills/git-pushing/scripts/smart_commit.sh\" \"feat\\(ps\\): add layer export functionality | 添加图层导出功能\")"
     ]
   }
 }
