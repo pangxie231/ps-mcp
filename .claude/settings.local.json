@@ -6,7 +6,11 @@
       "Bash(git push:*)",
       "Bash(bash \"C:\\\\Users\\\\EDY\\\\.claude\\\\skills\\\\git-pushing\\\\scripts\\\\smart_commit.sh\" \"docs\\(readme\\): add comprehensive project documentation | 添加项目说明文档\")",
       "Bash(bash C:/Users/EDY/.claude/skills/git-pushing/scripts/smart_commit.sh)",
-      "Bash(bash \"C:/Users/EDY/.claude/skills/git-pushing/scripts/smart_commit.sh\" \"feat\\(ps\\): add layer export functionality | 添加图层导出功能\")"
+      "Bash(bash \"C:/Users/EDY/.claude/skills/git-pushing/scripts/smart_commit.sh\" \"feat\\(ps\\): add layer export functionality | 添加图层导出功能\")",
+      "mcp__ps-mcp__export_doc",
+      "mcp__ps-mcp__get_all_layers",
+      "mcp__ps-mcp__export_layer",
+      "Bash(bash \"C:/Users/EDY/.claude/skills/git-pushing/scripts/smart_commit.sh\" \"feat\\(ps\\): add document export functionality | 添加文档导出功能\")"
     ]
   }
 }

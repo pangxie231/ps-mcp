@@ -41,6 +41,33 @@ def find_all_layers(layerSet):
   return layers
     
 
+@mcp.tool()
+def export_doc()-> str:
+  """
+  Args None
+  Returns 返回导出图片的路径
+  将当前文档导出为一张图片
+  导出图片，返回图片路径，然后AI根据视觉能力分析出大概的布局，然后决定要切的图片资源
+
+  当需要AI根据自身经验进行切图时
+  当前需要分析html布局信息时、分析前端布局信息时、前端页面结构时
+  
+  """
+  with Session() as ps:
+    app = ps.app
+    doc = app.activeDocument
+
+    # 储存路径
+    # 图片保存参数
+    # 是否作为一个副本保存(如果为True，也就是如果保存为.png,但是不会覆盖这个.psd)
+    # 扩展名，大写、小写、或者none
+    try:
+      doc.saveAs("E:/private/ps-mcp/outputs/design.png", ps.PNGSaveOptions())
+    except:
+      return "出错了"
+    
+    # filepath = os.path.join(os.getcwd(), "design.png")
+    return "E:/private/ps-mcp/outputs/design.png"
 
 # 获取所有的图层信息
 @mcp.tool()
